@@ -10,7 +10,7 @@ st.set_page_config(page_title="🧠 BrainTumorNet", layout="centered")
 
 @st.cache_resource
 def load_trained_model():
-    return load_model("brain_tumor_classifier.h5")
+    return load_model("braintumor.h5")
 
 # Load model and labels once
 model = load_trained_model()
